@@ -42,7 +42,7 @@ header .containing-wrapper, .containing-wrapper.menu, footer .containing-wrapper
     content: "Features";
     display: inline-block;
     cursor: normal;
-	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Mono', monospace;
 	font-size:14px;
 	text-transform:uppercase;
   }
@@ -84,7 +84,7 @@ header .containing-wrapper, .containing-wrapper.menu, footer .containing-wrapper
     float: none;
     display: block;
   }
-  #main-nav .additional-links > ul > li > a {  
+  #main-nav .additional-links > ul > li > a {
     display: block;
     padding: 6px 12px;
     white-space: nowrap;
@@ -113,9 +113,9 @@ header .containing-wrapper, .containing-wrapper.menu, footer .containing-wrapper
   .sub-nav-toggle{
     position: relative;
   }
-  #main-nav > ul > li > ul.sub-nav.hidden, 
+  #main-nav > ul > li > ul.sub-nav.hidden,
   #main-nav > ul > li > ul.sub-nav,
-  .sub-nav-toggle + ul.sub-nav.hidden, 
+  .sub-nav-toggle + ul.sub-nav.hidden,
   .sub-nav-toggle + ul.sub-nav{
     display: block;
     opacity: 0.0;
@@ -124,9 +124,9 @@ header .containing-wrapper, .containing-wrapper.menu, footer .containing-wrapper
    /* -webkit-transition: opacity ease 0s, top ease 0s;
     transition: opacity ease 0s, top ease 0s;*/
   }
-  #main-nav > ul > li:hover > ul.sub-nav.hidden, 
+  #main-nav > ul > li:hover > ul.sub-nav.hidden,
   #main-nav > ul > li:hover > ul.sub-nav,
-  .sub-nav-toggle:focus + ul.sub-nav.hidden, 
+  .sub-nav-toggle:focus + ul.sub-nav.hidden,
   .sub-nav-toggle:focus + ul.sub-nav{
     display: block;
     visibility: visible;
@@ -148,7 +148,7 @@ header .containing-wrapper, .containing-wrapper.menu, footer .containing-wrapper
   }
   #main-nav > ul > li > .sub-nav > li {
     float: none;
-	padding-top:0px; padding-bottom:0px; 
+	padding-top:0px; padding-bottom:0px;
   }
   #main-nav > ul > li > .sub-nav > li > a{
     display: block;
