@@ -116,6 +116,9 @@ blockquote p.small { font-style:normal; color:#555; letter-spacing:0; font-weigh
 em { font-style:italic; font-family:'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color:#777; }
 code { font:13px "Courier New", Courier, monospace; font-style:normal; line-height:1.5; display:block; padding-top:4px; }
 pre { padding:0 30px 25px 30px; border:1px dotted #3e3e3e; margin-top:10px; margin-bottom:10px; display:inline-block }
+.element  .clearfix .col1-3 .portfolio .photography .home {
+  display: none; 
+}
 /* End Typography
 --------------------------------------------------------------------------------------------------------*/
 
